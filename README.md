@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Intellinotes
 
-## Getting Started
+Intellinotes is a notes app built with Next.js, Prisma, Zod, MongoDB, Pinecone, OpenAI, Vector AI SDK, and Tailwind CSS. It offers a seamless experience for adding, editing, and deleting notes, along with an AI chatbox for intelligent Q&A related to your notes.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Notes Management**: Easily add, edit, and delete notes to organize your information effectively.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Dark and Light Themes**: Choose between dark and light themes based on your preference for a personalized experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **AI Chatbox**: Utilize the AI chatbox to ask questions related to your notes, powered by OpenAI embeddings in Pinecone and Vercel AI SDK.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js**: React framework for building web applications.
 
-To learn more about Next.js, take a look at the following resources:
+- **Prisma**: Database toolkit for accessing databases with type safety.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Zod**: TypeScript-first schema declaration and validation library.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **MongoDB**: NoSQL database for efficient data storage.
 
-## Deploy on Vercel
+- **Pinecone**: A vector database for efficient storage and retrieval of vector embeddings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **OpenAI**: Cutting-edge language models for intelligent interactions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Vector AI SDK**: SDK for integrating vector embeddings into your application.
+
+- **Tailwind CSS**: Utility-first CSS framework for styling.
